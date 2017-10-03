@@ -915,7 +915,8 @@ export default {
     'es-co': 'Spanish (Colombian)',
     'pt-br': 'Portuguese (Brazilian)',
     tr: 'Turkish',
-    ur: 'Urdu'
+    ur: 'Urdu',
+    ro: 'Romanian'
   },
   loading: {
     messages: {
