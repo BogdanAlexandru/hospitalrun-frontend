@@ -3,3 +3,6 @@
 {{/if}}
 {{outlet}}
 {{outlet "modal"}}
+{{#if session.isAuthenticated}}
+  {{render "bottom-bar"}}
+{{/if}}

@@ -1,0 +1,22 @@
+.bottom-bar {
+    width: 100%;
+    height: 22px;
+    color: $white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+
+    box-shadow: 1px 0 0 $navy_drkest;
+    background-color: $navy_drk;
+
+    .bottom-bar-copyright {
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .bottom-bar-feedback {
+        float: right;
+        margin-right: 20px;
+    }
+}
